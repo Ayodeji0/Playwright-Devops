@@ -1,0 +1,45 @@
+
+# =====================
+# Playwright
+# =====================
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+
+# =====================
+# AWS / credentials
+# =====================
+*.pem
+*.key
+.aws/
+.aws-credentials
+
+# =====================
+# Terraform
+# =====================
+terraform.tfvars
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# =====================
+# Docker
+# =====================
+docker-compose.override.yml
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+.vscode/
+.idea/
